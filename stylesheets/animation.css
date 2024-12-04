@@ -1,7 +1,7 @@
 .a {
   width: 800px;
   height: 800px;
-  background-image: url(/Users/dashhasep/Desktop/code/web-poster/inter-web-poster/images/a-800.png);
+  background-image: url(../images/a-800.png);
   animation: astro 3s steps(1) infinite;
 }
 @keyframes astro {

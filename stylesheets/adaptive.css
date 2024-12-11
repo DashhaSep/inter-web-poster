@@ -5,37 +5,128 @@
   overflow: hidden;
   margin-top: 115px;
 }
+.text-firstscreen {
+  color: #fff9e1;
+  font-family: "Kosugi";
+  font-size: 0.66vw;
+}
+.november {
+  margin-top: 512px;
+  margin-left: 320px;
+}
+.maria-p {
+  margin-top: 160px;
+  margin-left: 4px;
+}
+.tickets {
+  margin-left: 218px;
+  margin-top: 81px;
+}
+.t-05 {
+  color: #fff9e1;
+  font-family: "Kosugi";
+  font-size: 1.9vw;
+  margin-top: -507px;
+  margin-left: 642px;
+}
+.fest {
+  margin-top: 500px;
+  margin-left: 574px;
+}
+.text-firstcreen-main {
+  color: #fff9e1;
+  font-family: "Kosugi";
+  font-size: 1.85vw;
+}
+.festival-asteroid {
+  margin-top: 338px;
+  margin-left: 374px;
+}
 .flex-box-1 {
-  background-image: url(../images/n-big.svg);
   width: 38%;
   height: 853px;
   align-self: center;
 }
+.N {
+  width: 1920px;
+  height: 910px;
+  background-image: url(../images/inter:1:for-animation.png);
+}
+.go {
+  animation: go 2s steps(1) infinite;
+}
+.path {
+  width: 68px;
+  height: 68px;
+  position: relative;
+  top: 0;
+  animation: path 4s linear infinite;
+}
+@keyframes path {
+  0% {
+    left: -68px;
+    top: 0;
+  }
+  48% {
+    left: 48%;
+    top: 0;
+  }
+  50% {
+    left: 50%;
+    top: 0px;
+  }
+  52% {
+    left: 52%;
+    top: 0;
+  }
+  100% {
+    left: 100%;
+    top: 0;
+  }
+}
+@keyframes go {
+  0% {
+    background-position: 0 0;
+  }
+  20% {
+    background-position: 0 -910px;
+  }
+  40% {
+    background-position: 0 -1820px;
+  }
+  60% {
+    background-position: 0 -2730px;
+  }
+  80% {
+    background-position: 0 -3640px;
+  }
+  100% {
+    background-position: 0 -4550px;
+  }
+}
+.jupiter,
+.mars {
+  color: #fff9e1;
+  font-family: "Kosugi";
+  font-size: 1.85vw;
+}
+.jupiter {
+  margin-top: -173px;
+  margin-left: -15px;
+}
+.mars {
+  margin-top: 6px;
+  margin-left: 270px;
+}
 .flex-box-1-2 {
-  background-image: url(../images/\(Ю\)\(М\).svg);
   width: 343px;
   height: 76px;
   align-self: center;
 }
 .flex-box-1-3 {
-  background-image: url(../images/n-big.svg);
   width: 38%;
   height: 853px;
   align-self: center;
-}
-.november10 {
-  background-image: url(../images/10-ноября.svg);
-  width: 96px;
-  height: 10px;
-  margin-top: 513px;
-  margin-left: 320px;
-}
-.maria {
-  background-image: url(../images/святая-мария.svg);
-  width: 145px;
-  height: 10px;
-  margin-top: 160px;
-  margin-left: 5px;
 }
 .astrofest {
   background-image: url(../images/астрофест.svg);
@@ -57,13 +148,6 @@
   height: 73px;
   margin-top: 336px;
   margin-left: 340px;
-}
-.bilety {
-  background-image: url(../images/билеты.svg);
-  width: 80px;
-  height: 10px;
-  margin-top: 83px;
-  margin-left: 220px;
 }
 .lines {
   position: relative;
@@ -91,32 +175,91 @@
 }
 /* ВТОРОЙ ЭКРАН */
 .flex-box-2-1 {
-  width: 406px;
-  height: 401px;
+  width: 700px;
+  height: 451px;
   background-color: blue;
-  background-image: url(../images/rock-2screen.svg);
-  margin-top: 120px;
-  margin-left: 260px;
+  padding-top: 120px;
+  padding-left: 260px;
 }
 .flex-box-2-2 {
-  width: 872px;
-  height: 863px;
+  width: 960px;
+  height: 1052px;
   background-color: chartreuse;
-  margin-left: 322px;
-  margin-top: 101px;
+}
+.rock-secondscreen {
+  background-image: url(../images/rock-2screen.svg);
+  width: 406px;
+  height: 398px;
 }
 .flex-box-2-3 {
-  width: 988px;
-  height: 382px;
+  width: 960px;
+  height: 481px;
   background-color: red;
-  margin-top: -382px;
 }
 .inline {
-  display: flex;
+  display: block;
 }
-/* .circle-big {
-  opacity: 1;
+.text-secondscreen {
+  color: #fff9e1;
+  font-family: "Kosugi";
+  font-size: 2.7vw;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 96px;
 }
-.circle-big:hover {
-  opacity: 0;
-} */
+/* ТРЕТИЙ ЭКРАН */
+.third-screen-block {
+  width: 100%;
+  height: 1080px;
+  background-color: #fff9e1;
+}
+/* ЧЕТВЕРТЫЙ ЭКРАН */
+.fourth-screen-text {
+  font-family: "Monocraft";
+  color: #fff9e1;
+  font-size: 2.5vw;
+}
+.fourth-t-1 {
+  margin-top: 94px;
+  margin-left: 130px;
+}
+.fourth-t-2 {
+  margin-top: -97px;
+  margin-left: 623px;
+}
+.fourth-t-3 {
+  margin-top: -107px;
+  margin-left: 1112px;
+}
+.fourth-t-4 {
+  margin-top: -100px;
+  margin-left: 1610px;
+}
+.row p {
+  font-size: 2.7vw;
+  width: 200%;
+  font-family: "Monocraft";
+  color: #696969;
+}
+.container-row {
+  padding-top: 1.6vw;
+
+  height: 5vw;
+  width: 100%;
+  position: relative;
+}
+.row {
+  position: absolute;
+  animation: row 6s linear infinite;
+}
+.row:hover {
+  animation-play-state: paused;
+}
+@keyframes row {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

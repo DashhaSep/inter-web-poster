@@ -1,9 +1,9 @@
-body {
+/* body {
   background-color: #212121;
-}
+} */
 body {
   width: 1920px;
   height: 5658px;
-  /* background-image: url(../images/1920px.svg);
-  opacity: 0.5; */
+  background-image: url(../images/1920px.svg);
+  opacity: 0.5;
 }

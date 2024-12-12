@@ -1,18 +1,22 @@
+body {
+  cursor: url(../images/cursor.png), auto;
+}
 /* ПЕРВЫЙ ЭКРАН */
 .firstscreen-flexbox {
   justify-content: space-between;
   display: flex;
   overflow: hidden;
-  margin-top: 115px;
+  margin-top: 6vw;
 }
 .text-firstscreen {
   color: #fff9e1;
   font-family: "Kosugi";
   font-size: 0.66vw;
+  position: absolute;
 }
 .november {
-  margin-top: 512px;
-  margin-left: 320px;
+  margin-top: 23.1vw;
+  margin-left: 16.7vw;
 }
 .maria-p {
   margin-top: 160px;
@@ -218,22 +222,23 @@
   font-family: "Monocraft";
   color: #fff9e1;
   font-size: 2.5vw;
+  position: relative;
 }
 .fourth-t-1 {
-  margin-top: 94px;
-  margin-left: 130px;
+  margin-top: 4.9vw;
+  margin-left: 7vw;
 }
 .fourth-t-2 {
-  margin-top: -97px;
-  margin-left: 623px;
+  margin-left: 32.6vw;
+  margin-top: -5vw;
 }
 .fourth-t-3 {
-  margin-top: -107px;
-  margin-left: 1112px;
+  margin-top: -5.7vw;
+  margin-left: 58vw;
 }
 .fourth-t-4 {
-  margin-top: -100px;
-  margin-left: 1610px;
+  margin-top: -5vw;
+  margin-left: 84vw;
 }
 .row p {
   font-size: 2.7vw;
@@ -243,7 +248,6 @@
 }
 .container-row {
   padding-top: 1.6vw;
-
   height: 5vw;
   width: 100%;
   position: relative;
@@ -255,6 +259,9 @@
 .row:hover {
   animation-play-state: paused;
 }
+.row-p span:hover {
+  color: #fff9e1;
+}
 @keyframes row {
   0% {
     transform: translateX(0%);
@@ -262,4 +269,37 @@
   100% {
     transform: translateX(-100%);
   }
+}
+.diagram {
+  display: flex;
+}
+.dgr-first {
+  width: 45vw;
+  height: 791px;
+  background-color: chartreuse;
+}
+.dgr-second {
+  width: 57vw;
+  height: 791px;
+  background-color: blue;
+}
+/* ПЯТЫЙ ЭКРАН */
+.fifth-screen-block {
+  display: flex;
+  gap: 2vw;
+}
+.fifth-1 {
+  width: 8.85vw;
+  height: 45.5vw;
+  background-color: deeppink;
+}
+.fifth-2 {
+  width: 37.8vw;
+  height: 45.5vw;
+  background-color: rebeccapurple;
+}
+.fifth-3 {
+  width: 41vw;
+  height: 45.5vw;
+  background-color: darkgreen;
 }
